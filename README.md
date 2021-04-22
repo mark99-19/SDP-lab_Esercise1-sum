@@ -1,31 +1,25 @@
-# esercizio1/Esercizio1_somma
+A simple sum between two number, using
+<ul>
+  <li>
+    Java.net.Socket
+  </li>
+  and
+  <li>
+    Java.lang.Thread
+  </li>
+  </ul>
+  classes.
+  
+The text of the homework is:<br>
+<<Client:
+•Readsaddressand port numberof the server service from commandline
+•Readstwonumbersfrom standard input and sendsthemto the server
+•Receivesand printsthe response from the server•
 
-Somma tra numeri
+Server:
+•Readsthe port numberof the service from commandline
+•Printsaddressand port numberof the connectingclients
+•Receives two integers from each client, computes the sum and sends back the response with the result
 
-## Getting Started
-
-Download links:
-
-SSH clone URL: ssh://git@git.jetbrains.space/ssridevelopers/esercizio1/Esercizio1_somma.git
-
-HTTPS clone URL: https://git.jetbrains.space/ssridevelopers/esercizio1/Esercizio1_somma.git
-
-
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Examples
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a production system.
-
-## Resources
-
-Add links to external resources for this project, such as CI server, bug tracker, etc.
+•You haveto handle the possible exceptions
+•Develop both an iterative and a multi-threaded version of the server>>
