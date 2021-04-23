@@ -11,15 +11,15 @@ A simple sum between two number, using
   classes.
   
 The text of the homework is:<br>
-<<Client:
-•Readsaddressand port numberof the server service from commandline
-•Readstwonumbersfrom standard input and sendsthemto the server
-•Receivesand printsthe response from the server•
+<<Client:<br>
+•Reads address and port number of the server service from command line<br>
+•Reads two numbers from standard input and sends them to the server<br>
+•Receives and prints the response from the server<br>
+<br><br>
+Server:<br>
+•Reads the port number of the service from command line<br>
+•Prints address and port number of the connecting clients<br>
+•Receives two integers from each client, computes the sum and sends back the response with the result<br><br>
 
-Server:
-•Readsthe port numberof the service from commandline
-•Printsaddressand port numberof the connectingclients
-•Receives two integers from each client, computes the sum and sends back the response with the result
-
-•You haveto handle the possible exceptions
+•You haveto handle the possible exceptions<br>
 •Develop both an iterative and a multi-threaded version of the server>>
